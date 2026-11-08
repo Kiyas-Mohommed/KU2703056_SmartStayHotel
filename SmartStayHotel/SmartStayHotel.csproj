@@ -14,7 +14,6 @@
     <Folder Include="Modules\Reservations\" />
     <Folder Include="Modules\RoomManagement\" />
     <Folder Include="UI\" />
-    <Folder Include="Validations\" />
   </ItemGroup>
 
 </Project>
