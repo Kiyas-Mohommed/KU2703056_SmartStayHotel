@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Rooms\" />
+    <Folder Include="Data\" />
+    <Folder Include="Modules\GuestManagement\" />
+    <Folder Include="Modules\Billing\" />
+    <Folder Include="Modules\Reservations\" />
+    <Folder Include="Modules\RoomManagement\" />
+    <Folder Include="UI\" />
+    <Folder Include="Validations\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
