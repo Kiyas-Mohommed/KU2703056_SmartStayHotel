@@ -15,7 +15,6 @@
     <Folder Include="Modules\RoomManagement\" />
     <Folder Include="UI\" />
     <Folder Include="Validations\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>
