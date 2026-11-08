@@ -1,4 +1,6 @@
-﻿namespace SmartStayHotel;
+﻿using KU2703056_SmartStay;
+
+namespace SmartStayHotel;
 
 // stores all bookings in memory and creates new booking IDs
 public class KU2703056_BookingRepository
@@ -35,5 +37,20 @@ public class KU2703056_BookingRepository
     public List<KU2703056_Booking> GetAll()
     {
         return new List<KU2703056_Booking>(bookings);
+    }
+
+    // true if the room has a confirmed booking whose stay has not finished yet
+    public bool HasActiveBooking(string roomId, DateTime today)
+    {
+        foreach (KU2703056_Booking booking in bookings)
+        {
+            if (booking.Status == KU2703056_BookingStatus.Confirmed
+                && string.Equals(booking.Room.RoomId, roomId, StringComparison.OrdinalIgnoreCase)
+                && booking.CheckOutDate > today.Date)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
