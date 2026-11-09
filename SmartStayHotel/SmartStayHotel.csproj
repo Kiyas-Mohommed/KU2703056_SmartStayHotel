@@ -12,7 +12,6 @@
     <Folder Include="Modules\GuestManagement\" />
     <Folder Include="Modules\Billing\" />
     <Folder Include="Modules\Reservations\" />
-    <Folder Include="Modules\RoomManagement\" />
     <Folder Include="UI\" />
   </ItemGroup>
 
