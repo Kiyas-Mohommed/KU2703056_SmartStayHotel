@@ -1,6 +1,6 @@
 ﻿namespace SmartStayHotel;
 
-// Administrator operation: returns every room, sorted by Room ID.
+// administrator operation: returns every room, sorted by Room ID
 public class KU2703056_ViewAllRooms
 {
     private readonly KU2703056_RoomRepository roomRepository;

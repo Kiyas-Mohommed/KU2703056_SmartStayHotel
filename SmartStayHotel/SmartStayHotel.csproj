@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="Modules\GuestManagement\" />
     <Folder Include="Modules\Billing\" />
     <Folder Include="Modules\Reservations\" />
     <Folder Include="UI\" />

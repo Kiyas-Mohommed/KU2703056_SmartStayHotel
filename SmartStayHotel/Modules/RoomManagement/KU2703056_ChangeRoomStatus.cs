@@ -2,7 +2,7 @@
 
 namespace SmartStayHotel;
 
-// Administrator operation: sets a room to Available, Reserved or Under Maintenance.
+// administrator operation: sets a room to Available, Reserved or Under Maintenance
 public class KU2703056_ChangeRoomStatus
 {
     private readonly KU2703056_RoomRepository roomRepository;

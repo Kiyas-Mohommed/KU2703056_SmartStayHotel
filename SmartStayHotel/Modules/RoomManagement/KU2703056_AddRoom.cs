@@ -2,7 +2,7 @@
 
 namespace SmartStayHotel;
 
-// Administrator operation: adds a new room.
+// administrator operation: adds a new room
 public class KU2703056_AddRoom
 {
     private readonly KU2703056_RoomRepository roomRepository;
