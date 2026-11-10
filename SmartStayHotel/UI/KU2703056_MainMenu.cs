@@ -41,5 +41,6 @@ public class KU2703056_MainMenu
 
         Console.WriteLine();
         Console.WriteLine("Thank you for using SmartStay Hotel Booking System. Goodbye!");
+        KU2703056_ConsoleInput.Pause();
     }
 }
